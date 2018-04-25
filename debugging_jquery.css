@@ -17,9 +17,19 @@ h2, h1, a
 	margin: 0px auto;
 }
 
-#top_headers, #survey, ul, h3
+#top_headers{
+	display:block;
+}
+
+#survey, ul, h3
 {
 	display: inline-block;
+}
+
+#survey{
+	/* text-align: center; */
+	margin-left:396px;
+	margin-bottom:5px;
 }
 
 li
@@ -52,6 +62,18 @@ li
 	display: inline-block;
 	width: 300px;
 	padding: 10px;
+}
+img.logo{
+	display:inline-block;
+	width:200px;
+	height:110px;
+	padding-left:40px;
+	vertical-align:bottom;
+}
+
+span{
+	display:inline-block;
+
 }
 
 img
